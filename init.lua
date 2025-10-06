@@ -27,4 +27,5 @@ require('lazy').setup {
   require 'plugins.gitsigns',
   require 'plugins.indent-blackline',
   require 'plugins.misc',
+  require 'plugins.snacks',
 }
