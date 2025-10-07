@@ -29,3 +29,10 @@ require('lazy').setup {
   require 'plugins.misc',
   require 'plugins.snacks',
 }
+
+vim.schedule(function()
+  vim.api.nvim_create_autocmd('FileType', {
+    pattern = 'robot',
+    command = 'setlocal commentstring=#\\ %s',
+  })
+end)
