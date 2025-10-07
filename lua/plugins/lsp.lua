@@ -156,6 +156,7 @@ return {
       terraformls = {},
       jsonls = {},
       yamlls = {},
+      robotframework_ls = {},
       lua_ls = {
         settings = {
           Lua = {
